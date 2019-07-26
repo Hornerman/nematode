@@ -10,7 +10,8 @@
 
 //You should choose the colour channel (red, green or blue which produces the clearest binary image. It will ask you to choose a colour, and you
 //should choose either red, green or blue. The one that gives the clearest set of binary images is the best.
-
+//This macro requires the built in routines "Spit chnannels", "Make binary", "Fill holes", "Dilate", "Erode", "Analyse particles",
+//"Invert", Canvas size", "Ehance particles", Set measurement", "Rotate", "Set scale", 
 //This closes any open images
 while (nImages>0) { 
 selectImage(nImages); 
