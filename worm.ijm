@@ -6,6 +6,8 @@
 //For each worm there will also be a set of coordinates of the outline of the worm which can be used in another program, such as Excel.
 //There are in a file called "**output.txt" (** is the name of the image file) for each worm, also in the subdirectory "output".
 //A straightened image of each worm "**straight.tif" is saved in the subdirectory "straight"
+//This macro uses the subroutines "Covert to mask", Duplicate", "skeletonize (2D/3D)", "Analyse particles", "Make binary", "Outline",
+//
 
 //close any open images
 while (nImages>0) { 
