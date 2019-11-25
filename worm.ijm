@@ -101,7 +101,7 @@
 		//ends of the central line do not extend to the end of the worm. This fuction measures the length 
 		//to the ends of the worm and draws a line on the image
 		ends();
-		//Select the image of the centrl line
+		//Select the image of the central line
 		selectWindow(file);
 		run("Convert to Mask");
 		//Draw line around worm line and measure it
