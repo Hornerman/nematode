@@ -3,6 +3,7 @@ These macros are designed to measure the size of nematodes from photographs. The
 In order to use the program, photographs of the worms should be placed in a sub folder called photos.
 Each photo should have only one worm, and should have good contrast. 
 The photos should be spatially calibrated. This can be done by photographing a known length at the same magnification and using the calibration option ImageJ or other imaging program.
+An example of a suitable image is included.
 
 First load the macro binary.ijm into FIJI and run it.
 You will be first asked to input the folder containing the sub folder photos.
